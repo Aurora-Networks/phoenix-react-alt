@@ -25261,6 +25261,10 @@ html:not(.navbar-vertical-collapsed) .navbar-vertical.navbar-expand-xs .navbar-v
   padding-right: 2.5rem;
   margin-left: 15.875rem;
 }
+.navbar-vertical .new-page-indicator {
+  margin-top: -10px;
+  font-size: 6px;
+}
 
 @media (min-width: 1540px) {
   .navbar-vertical-collapsed .navbar-vertical.navbar-expand-xxl {
@@ -26204,6 +26208,11 @@ html:not(.navbar-vertical-collapsed) .navbar-vertical.navbar-expand-xs .navbar-v
 }
 .navbar-vertical-collapsed .nav-link-badge {
   display: none;
+}
+.navbar-vertical-collapsed .new-page-indicator {
+  margin-left: -8px !important;
+  margin-top: -15px;
+  display: block !important;
 }
 
 /* -------------------------------------------------------------------------- */
