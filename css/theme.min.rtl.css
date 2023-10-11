@@ -24724,6 +24724,19 @@ html:not(.navbar-vertical-collapsed) .navbar-vertical.navbar-expand-xs .navbar-v
 .navbar-vertical .navbar-vertical-content .nav-link-text {
   padding-top: 0.125rem;
 }
+.navbar-vertical .navbar-vertical-content .nav-link-text.new {
+  position: relative;
+}
+.navbar-vertical .navbar-vertical-content .nav-link-text.new::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #0097eb;
+  top: 2px;
+  left: -8px;
+}
 .navbar-vertical .nav-item-wrapper:has(.active) .dropdown-indicator.label-1.collapsed .nav-link-text,
 .navbar-vertical .nav-item-wrapper:has(.active) .dropdown-indicator.label-1.collapsed .nav-link-icon {
   color: var(--phoenix-navbar-vertical-link-active-color);
@@ -26186,6 +26199,19 @@ html:not(.navbar-vertical-collapsed) .navbar-vertical.navbar-expand-xs .navbar-v
   margin-right: -8px !important;
   margin-top: -15px;
   display: block !important;
+}
+.navbar-vertical-collapsed .nav-link-icon.new {
+  position: relative;
+}
+.navbar-vertical-collapsed .nav-link-icon.new::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #0097eb;
+  top: -4px;
+  left: -6px;
 }
 
 /* -------------------------------------------------------------------------- */
